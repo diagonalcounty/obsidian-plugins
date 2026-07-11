@@ -8,7 +8,7 @@ Not a framework. Not a platform. Just plugins that do one job without rewriting 
 
 | Plugin | One-liner | Status |
 |--------|-----------|--------|
-| **[Blinks](./blinks/)** | Better block links — phrase pick, readable `^slugs`, less `#^fa5d4c` cosplay | **0.2.0** · usable |
+| **[Blinks](https://github.com/diagonalcounty/blinks)** | Better block links — phrase pick, readable `^slugs`, less `#^fa5d4c` cosplay | **0.2.0** · [dedicated repo](https://github.com/diagonalcounty/blinks) for Community Plugins |
 
 More will show up here when they earn a folder.
 
@@ -29,7 +29,9 @@ More will show up here when they earn a folder.
 
 ### C. Community Plugins directory
 
-Not yet. We’re not pretending day-one code is carved in marble. When a plugin’s been beaten up in real vaults, we’ll submit it the proper way.
+**Blinks** is submitted (or ready to submit) from its [own repo](https://github.com/diagonalcounty/blinks) — Obsidian requires plugin files at the **repo root** and a release tag matching `manifest.json` version. This monorepo stays the catalog / workshop; installable community plugins live one-repo-per-plugin.
+
+Submit / manage via [community.obsidian.md](https://community.obsidian.md/) developer dashboard.
 
 ## Philosophy (short enough to ignore)
 
@@ -49,3 +51,13 @@ Not yet. We’re not pretending day-one code is carved in marble. When a plugin�
 ---
 
 *PRs welcome if they come with a reason. “I refactored your vibe” is not a reason.*
+
+
+## Repo layout
+
+| Path | Role |
+|------|------|
+| `blinks/` | Snapshot / archive copy of Blinks (dev convenience) |
+| [diagonalcounty/blinks](https://github.com/diagonalcounty/blinks) | **Canonical** Blinks for releases & Community Plugins |
+
+New plugins will follow the same pattern: workshop here, public installable repo when ready.
